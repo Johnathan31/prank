@@ -1,0 +1,44 @@
+body{
+    font-family: serif;
+    font-weight: bold;
+}
+#box{
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 10px;
+    font-size: 17px;
+}
+#box button{
+    width: 80px;
+    background-color: hsla(170, 78%, 55%, 1);
+    border-radius: 15px;
+    border: none;
+}
+#box #yes:active{
+    transform: scale(.9);
+}
+#no{
+    position: absolute;
+    left: 166px;
+}
+#result{
+    padding: 70px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 15px 15px 15px grey;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 15px;
+}
+#result button{
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    width: 100px;
+}
+#result h1{
+    text-align: top;
+}
