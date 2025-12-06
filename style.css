@@ -17,13 +17,8 @@ body{
     border-radius: 15px;
     border: none;
 }
-#box #yes:active{
-    transform: scale(.9);
-}
-#no{
-    position: absolute;
-    left: 166px;
-}
+#yes {position: absolute;}
+#no {position: absolute;}
 #result{
     padding: 70px;
     border: none;
