@@ -16,6 +16,8 @@ body{
     background-color: hsla(170, 78%, 55%, 1);
     border-radius: 15px;
     border: none;
+    text-align: center;
+    justify-content: center;
 }
 #yes {position: absolute;}
 #no {position: absolute;}
