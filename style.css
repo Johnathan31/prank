@@ -17,8 +17,8 @@ body{
     border-radius: 15px;
     border: none;
 }
-#yes {position: absolute;}
-#no {position: absolute;}
+#yes {position: none;}
+#no {position: none;}
 #result{
     padding: 70px;
     border: none;
