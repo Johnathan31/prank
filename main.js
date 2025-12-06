@@ -7,8 +7,6 @@ yes.onclick = () => {
     setTimeout(() => result.close(), 3000)
 }
 no.onclick = () => {
-  const random = Math.floor(Math.random * 300);
-  
   no.style.left = `${Math.floor(Math.random() * 300)}px`;
   no.style.top = `${Math.floor(Math.random() * 300)}px`;
   no.style.transition = '.5s ease';
